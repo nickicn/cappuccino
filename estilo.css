@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#logo {
+    max-width: 250px;
+}
+
+button
+{
+    min-width:150px;
+}
+
+#categoria-botoes {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.todos {
+    background-color: #28a745;
+}
+
+button.todos:hover {
+    background-color: #1e7e34;
+}
+
+#itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0px 20px 20px 20px;
+}
+
+.item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item h3 {
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.item p {
+    color: #666;
+    margin: 0;
+}
+
+img
+{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
